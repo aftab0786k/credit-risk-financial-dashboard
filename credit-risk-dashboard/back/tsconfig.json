@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "ES2020",
+      "module": "NodeNext",
+      // "outDir": "./dist",
+      "rootDir": "./server",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "moduleResolution": "NodeNext" // Add this for ES modules
+    },
+    "include": ["server/**/*"],
+    "exclude": ["node_modules"]
+  }
