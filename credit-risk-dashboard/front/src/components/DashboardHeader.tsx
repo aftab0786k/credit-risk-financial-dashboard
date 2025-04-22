@@ -1,9 +1,9 @@
 import React from 'react';
 import { BarChart3, Users, AlertTriangle } from 'lucide-react';
-import { useNavigate } from 'react-router';
+
 
 const DashboardHeader: React.FC = () => {
-  const navigate = useNavigate();
+
   return (
     <div className="bg-gradient-to-r from-blue-600 to-purple-600 p-6 rounded-lg shadow-lg mb-6">
       <div className="flex flex-col md:flex-row justify-between items-center">
