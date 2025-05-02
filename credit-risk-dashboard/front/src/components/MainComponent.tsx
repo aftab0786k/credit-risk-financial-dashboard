@@ -8,7 +8,7 @@ import CustomerTable from './CustomerTable';
 import MonthlyTrendsChart from './MonthlyTrendsChart';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000';
+const API_URL = 'https://credit-risk-financial-dashboard-2.onrender.com';
 
 const MainComponent = () => {
   const [customers, setCustomers] = useState<Customer[]>([]);
